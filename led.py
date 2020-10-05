@@ -1,10 +1,9 @@
 #!/usr/bin/python3
 #
 #THINKEDINTHESEA
-#PiFUN
+#PiFLUSHHH
 #
-#rev041219
-#rev081119
+#rev05102020
 #
 import time
 import board
