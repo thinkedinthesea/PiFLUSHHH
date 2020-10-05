@@ -1,13 +1,9 @@
 #!/usr/bin/python
 #
-#	      *************
-#       * PiFLUSHHH *
-#       *************
-#        _____________________
-#       |                     |
-#     	|   THINKEDINTHESEA   |
-#       |_____________________|
+#THINKEDINTHESEA
+#PiFLUSHHH
 #
+#rev05102020
 #
 #python3 temp.py -l <y/n> -s <seconds>
 #-l log save to log yes/no
