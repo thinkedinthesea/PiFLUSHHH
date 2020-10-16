@@ -34,7 +34,9 @@ options = getOptions(sys.argv[1:])
 if not options.time:
         options.time = "60"
 if not options.fan:
-        options.fan = "46"
+        options.fan = "36"
+if options.time < 1
+        options.time = "1"
 #
 def measure_temp():
         temp = os.popen("vcgencmd measure_temp").readline()
