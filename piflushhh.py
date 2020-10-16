@@ -42,7 +42,7 @@ def measure_temp():
         return (temp.replace("temp=",""))
 #
 def write_log():
-        logg = open("temp.log", "a")
+        logg = open("/tmp/temp.log", "a")
         now = datetime.now()
         dt_string = now.strftime("%d/%m/%Y %H:%M:%S")
         logg.write(dt_string + ";" + measure_temp())
