@@ -5,6 +5,7 @@
 #
 #rev03122019
 #rev10092020
+#rev16102020
 #
 if [ $(id -u) -ne 0 ]; then
 	echo "Installer must be run as root."
@@ -62,8 +63,12 @@ echo
 echo "Add cronjob..."
 echo
 ##
+crontab -l | grep -v "@reboot sudo /usr/bin/python3 /usr/local/bin/powermypi_uno.py &" | crontab -
+crontab -l | { cat; echo "@reboot sudo /usr/bin/python3 /usr/local/bin/powermypi_uno.py &"; } | crontab -
 crontab -l | grep -v "@reboot sudo /usr/bin/python3 /usr/local/bin/piflushhh.py &" | crontab -
 crontab -l | { cat; echo "@reboot sudo /usr/bin/python3 /usr/local/bin/piflushhh.py &"; } | crontab -
+crontab -l | grep -v "@reboot sudo /usr/bin/python3 /usr/local/bin/led.py &" | crontab -
+crontab -l | { cat; echo "@reboot sudo /usr/bin/python3 /usr/local/bin/led.py &"; } | crontab -
 ##
 echo
 echo -n "SHUTDOWN NOW? [y/N]"
