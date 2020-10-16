@@ -32,16 +32,23 @@ if [[ ! "$REPLY" =~ ^(yes|y|Y)$ ]]; then
 	exit 0
 fi
 #
-echo -n "Downloading, installing powermypi_uno..."
+echo -n "Downloading, installing piFLUSHHH..."
 # Download to tmpfile because might already be running
 curl -f -s -o /tmp/piflush.py https://raw.githubusercontent.com/thinkedinthesea/PiFLUSHHH/main/piflushhh.py
 curl -f -s -o /tmp/powermypi_uno.py https://raw.githubusercontent.com/thinkedinthesea/PiFLUSHHH/main/powermypi_uno.py
+curl -f -s -o /tmp/led.py https://raw.githubusercontent.com/thinkedinthesea/PiFLUSHHH/main/led.py
 if [ $? -eq 0 ]; then
 	mv /tmp/piflushhh.py /usr/local/bin
 	chmod 755 /usr/local/bin/piflushhh.py
+	mv /tmp/powermypi_uno.py /usr/local/bin
+	chmod 755 /usr/local/bin/powermypi_uno.py
+	mv /tmp/led.py /usr/local/bin
+	chmod 755 /usr/local/bin/led.py
 	echo "OK"
 else
 	echo "ERROR"
+	echo "Cancelled."
+	exit 0
 fi
 #
 echo -n "Performing other system configuration..."
