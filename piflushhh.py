@@ -19,7 +19,7 @@ speedSteps = [0, 100]  # [%]
 hyst = 1
 
 # Setup GPIO pin
-GPIO.setmode(GPIO.BCM)
+GPIO.setmode(GPIO.BOARD)
 GPIO.setup(FAN_PIN, GPIO.OUT, initial=GPIO.LOW)
 fan = GPIO.PWM(FAN_PIN, PWM_FREQ)
 fan.start(0)
