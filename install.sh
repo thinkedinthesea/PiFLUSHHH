@@ -63,10 +63,14 @@ echo
 echo "Add cronjob..."
 echo
 ##
+echo -n "Do you want piflushhh script to launch at boot?? [Y/N]"
+read
+if [[ "$REPLY" =~ ^(yes|y|Y)$ ]]; then
+	crontab -l | grep -v "@reboot sudo /usr/bin/python3 /usr/local/bin/piflushhh.py -l n -t 2 -f 35 &" | crontab -
+	crontab -l | { cat; echo "@reboot sudo /usr/bin/python3 /usr/local/bin/piflushhh.py -l n -t 2 -f 35 &"; } | crontab -
+fi
 crontab -l | grep -v "@reboot sudo /usr/bin/python3 /usr/local/bin/powermypi_uno.py &" | crontab -
 crontab -l | { cat; echo "@reboot sudo /usr/bin/python3 /usr/local/bin/powermypi_uno.py &"; } | crontab -
-crontab -l | grep -v "@reboot sudo /usr/bin/python3 /usr/local/bin/piflushhh.py -l n -t 2 -f 35 &" | crontab -
-crontab -l | { cat; echo "@reboot sudo /usr/bin/python3 /usr/local/bin/piflushhh.py -l n -t 2 -f 35 &"; } | crontab -
 crontab -l | grep -v "@reboot sudo /usr/bin/python3 /usr/local/bin/led.py &" | crontab -
 crontab -l | { cat; echo "@reboot sudo /usr/bin/python3 /usr/local/bin/led.py &"; } | crontab -
 ##
