@@ -1,13 +1,9 @@
 #!/usr/bin/python
 #
-#	*************
-#       * POWERMYPI *
-#       *************
-#        _____________________
-#       |                     |
-#     	|   THINKEDINTHESEA   |
-#       |_____________________|
+#POWERMYPI - UNO
+#THINKEDINTHESEA
 #
+#rev2 - 191020
 #
 import RPi.GPIO as GPIO
 import time
@@ -21,18 +17,14 @@ GPIO.setup(11, GPIO.OUT)
 #
 tempo = 0
 poweroff = 0
-# start program, make WD HIGH
 GPIO.output(11, True)
 while True:
+  if (GPIO.input(12) == True):
+    time.sleep(2)
     if (GPIO.input(12) == True):
-        tempo = time.time()
-        while (time.time() < tempo + 2):
-            if (GPIO.input(12) == True):
-                poweroff = 1
-        if (poweroff == 1):
-            os.system("sudo poweroff")
-            break
-        if (poweroff == 0):
-            os.system("sudo reboot")
-            break
-    time.sleep(0.1)
+      os.system("sudo poweroff")
+      break
+    else:
+      os.system("sudo reboot")
+      break
+  time.sleep(0.1)
