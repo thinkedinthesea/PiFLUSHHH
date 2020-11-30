@@ -1,4 +1,4 @@
-### FLUSHHH
+# FLUSHHH
 FLUSHHH, add-on board for Raspberry Pi. PWM regulated Fan, WS2812b RGB led and Power/Reboot Switch.
 <br/>
 <br/>
@@ -10,8 +10,8 @@ FLUSHHH, add-on board for Raspberry Pi. PWM regulated Fan, WS2812b RGB led and P
 <br/>
 FLUSHHH is the all-in-one solution for the Raspberry Pi family.
 <br/>
-# •	PWM regulated fan based on CPU temperature<br/>
+## -	PWM regulated fan based on CPU temperature<br/>
 Many cases for Raspberry Pi comes with fan in order to help cooling the CPU. But these fans are always on, and usually pretty noisy. FLUSHHH regulate the fan speed based on CPU temperature using little python script.<br/>
-# •	#WS2812B RGB LED<br/>
+## -	WS2812B RGB LED<br/>
 Very cool multi coloured light. Useful for adding visual signals or show some fancy styles visualization. Connected to Raspberry Pi GPIO pin 12 (BCM18 PWM0) and controlled by a little python script fully customizable.
 
