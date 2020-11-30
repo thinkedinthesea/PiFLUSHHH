@@ -23,12 +23,12 @@ In addiction, once installed the python script, FLUSHHH is able to check if a re
 <br>
 <br>
 <br>
-<p align="center"><img src="https://github.com/thinkedinthesea/FLUSHHH/raw/main/img/info_front.jpg" width="500">
-<img src="https://github.com/thinkedinthesea/FLUSHHH/raw/main/img/info_rear.jpg" width="440"></p>
+<p align="center"><img src="https://github.com/thinkedinthesea/FLUSHHH/raw/main/img/info_front.jpg" width="400">
+<img src="https://github.com/thinkedinthesea/FLUSHHH/raw/main/img/info_rear.jpg" width="340"></p>
 <br>
 <br>
-<p align="center"><img src="https://github.com/thinkedinthesea/FLUSHHH/raw/main/img/complete.jpg" width="500">
-<img src="https://github.com/thinkedinthesea/FLUSHHH/raw/main/img/usb_small.jpg" width="400"></p>
+<p align="center"><img src="https://github.com/thinkedinthesea/FLUSHHH/raw/main/img/complete.jpg" width="400">
+<img src="https://github.com/thinkedinthesea/FLUSHHH/raw/main/img/usb_small.jpg" width="300"></p>
 <br>
 <br>
 <h1>INSTALL</h1>
