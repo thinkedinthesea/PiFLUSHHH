@@ -16,7 +16,7 @@ Very cool multi coloured light. Useful for adding visual signals or show some fa
 <br>
 - Power On/Off and Reboot switch<br>
 Its main feature is to control the power supply of the Raspberry Pi, providing a switch for Power On / Off and Reboot operations. An ATTINY85 programmed in ARDUINO manages vitality signals with Raspberry Pi.<br>
-Just plug your micro-USB power supply into the micro-B connector of FLUSHHH, press the switch to power on the Raspberry Pi. Once started:<br/
+Just plug your micro-USB power supply into the micro-B connector of FLUSHHH, press the switch to power on the Raspberry Pi. Once started:<br/>
 - pressure < 3 secs, reboot<br>
 - pressure > 3 secs, shutdown<br>
 In addiction, once installed the python script, FLUSHHH is able to check if a restart or shutdown has been commanded from Raspberry Pi and operates accordingly.
@@ -25,4 +25,6 @@ In addiction, once installed the python script, FLUSHHH is able to check if a re
 <p align="center"><img src="https://github.com/thinkedinthesea/FLUSHHH/raw/main/img/complete.jpg" width="650"></p>
 <br>
 <br>
-<br>
+__ f __
+Open a terminal on your RPi:<br>
+cd /home/pi
