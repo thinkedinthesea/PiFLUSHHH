@@ -1,6 +1,5 @@
 #!/usr/bin/python
 #
-#POWERMYPI - UNO
 #THINKEDINTHESEA
 #
 #rev2 - 191020
