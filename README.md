@@ -4,7 +4,7 @@ FLUSHHH is the all-in-one solution for the Raspberry Pi family.
 <br>
 <br>
 <p align="center"><img src="https://github.com/thinkedinthesea/FLUSHHH/raw/main/img/front.jpg" width="400">
-<img src="https://github.com/thinkedinthesea/FLUSHHH/raw/main/img/rear.jpg" width="380"></p>
+<img src="https://github.com/thinkedinthesea/FLUSHHH/raw/main/img/rear.jpg" width="385"></p>
 <br>
 - PWM regulated fan based on CPU temperature<br>
 Many cases for Raspberry Pi comes with fan in order to help cooling the CPU. But these fans are always on, and usually pretty noisy. FLUSHHH regulate the fan speed based on CPU temperature using little python script.
