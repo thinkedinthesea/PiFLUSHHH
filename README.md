@@ -43,4 +43,4 @@ sudo bash install.sh
 <h1>ATTINY85 Programming</h1>
 Follow instructions on https://github.com/SpenceKonde/ATTinyCore/blob/master/Installation.md<br>
 This show how to set up your Arduino IDE.<br>
-the file flushhh.ino in arduino dir is the source code for the attiny85.
+The file flushhh.ino in arduino dir is the source code for the attiny85.
