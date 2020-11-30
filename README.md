@@ -25,6 +25,6 @@ In addiction, once installed the python script, FLUSHHH is able to check if a re
 <p align="center"><img src="https://github.com/thinkedinthesea/FLUSHHH/raw/main/img/complete.jpg" width="650"></p>
 <br>
 <br>
-<h1>ddd</h1>
+<h1>INSTALL</h1>
 Open a terminal on your RPi:<br>
 cd /home/pi
