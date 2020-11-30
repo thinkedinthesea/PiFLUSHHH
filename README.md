@@ -1,5 +1,5 @@
 # FLUSHHH
-Add-on board for Raspberry Pi. PWM regulated Fan, WS2812b RGB led and Power/Reboot Switch.
+Add-on board for Raspberry Pi. PWM regulated Fan, WS2812b RGB led and Power/Reboot Switch.<br>
 FLUSHHH is the all-in-one solution for the Raspberry Pi family.
 <br>
 <br>
