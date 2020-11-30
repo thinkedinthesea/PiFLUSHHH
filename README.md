@@ -33,4 +33,8 @@ In addiction, once installed the python script, FLUSHHH is able to check if a re
 <br>
 <h1>INSTALL</h1>
 Open a terminal on your RPi:<br>
+<pre><code>// Some comments
 cd /home/pi
+line 2 of code
+line 3 of code
+</code></pre>
