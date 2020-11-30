@@ -22,6 +22,10 @@ Just plug your micro-USB power supply into the micro-B connector of FLUSHHH, pre
 In addiction, once installed the python script, FLUSHHH is able to check if a restart or shutdown has been commanded from Raspberry Pi and operates accordingly.
 <br>
 <br>
+<p align="center"><img src="https://github.com/thinkedinthesea/FLUSHHH/raw/main/img/info_front.jpg" width="400">
+<img src="https://github.com/thinkedinthesea/FLUSHHH/raw/main/img/info_rear.jpg" width="385"></p>
+<br>
+<br>
 <p align="center"><img src="https://github.com/thinkedinthesea/FLUSHHH/raw/main/img/complete.jpg" width="650"></p>
 <br>
 <br>
