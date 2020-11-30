@@ -1,15 +1,18 @@
 #!/usr/bin/python
-# -*- coding: utf-8 -*-
-
+#
+#THINKEDINTHESEA
+#
+#rev2 - 191020
+#
 import RPi.GPIO as GPIO
 import time
 import sys
 
 # Configuration
-FAN_PIN = 13  # BCM pin used to drive transistor's base
+FAN_PIN = 13
 WAIT_TIME = 1  # [s] Time to wait between each refresh
-FAN_MIN = 20  # [%] Fan minimum speed.
-PWM_FREQ = 25  # [Hz] Change this value if fan has strange behavior
+FAN_MIN = 20
+PWM_FREQ = 25
 
 # Configurable temperature and fan speed steps
 tempSteps = [35, 60]  # [°C]
