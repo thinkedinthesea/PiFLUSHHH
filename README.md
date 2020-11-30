@@ -3,5 +3,5 @@ FLUSHHH, add-on board for Raspberry Pi. PWM regulated Fan, WS2812b RGB led and P
 <br/>
 <br/>
 <br/>
-<img src="https://github.com/thinkedinthesea/FLUSHHH/raw/main/img/front.jpg" width="300" />
+<img src="https://github.com/thinkedinthesea/FLUSHHH/raw/main/img/front.jpg" width="400" />
 
