@@ -1,7 +1,7 @@
 # FLUSHHH
-Raspberry Pi module with poweron/reboot button, WS2812 led and automatic fan
+FLUSHHH, add-on board for Raspberry Pi. PWM regulated Fan, WS2812b RGB led and Power/Reboot Switch.
 <br/>
 <br/>
 <br/>
-<img src="https://github.com/thinkedinthesea/PiFLUSHHH/raw/main/img1.jpg" width="300" />
+<img src="https://github.com/thinkedinthesea/PiFLUSHHH/img/raw/main/img1.jpg" width="300" />
 
