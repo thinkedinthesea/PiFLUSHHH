@@ -27,7 +27,8 @@ In addiction, once installed the python script, FLUSHHH is able to check if a re
 <img src="https://github.com/thinkedinthesea/FLUSHHH/raw/main/img/info_rear.jpg" width="440"></p>
 <br>
 <br>
-<p align="center"><img src="https://github.com/thinkedinthesea/FLUSHHH/raw/main/img/complete.jpg" width="650"></p>
+<p align="center"><img src="https://github.com/thinkedinthesea/FLUSHHH/raw/main/img/complete.jpg" width="500">
+<img src="https://github.com/thinkedinthesea/FLUSHHH/raw/main/img/usb_small.jpg" width="400"></p>
 <br>
 <br>
 <h1>INSTALL</h1>
