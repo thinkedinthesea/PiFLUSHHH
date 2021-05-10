@@ -15,7 +15,7 @@ FAN_MIN = 20
 PWM_FREQ = 25
 
 # Configurable temperature and fan speed steps
-tempSteps = [35, 60]  # [°C]
+tempSteps = [35, 55]  # [°C]
 speedSteps = [0, 100]  # [%]
 
 # Fan speed will change only of the difference of temperature is higher than hysteresis
